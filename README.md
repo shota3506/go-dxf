@@ -6,3 +6,9 @@ Please see [the official documentation](https://help.autodesk.com/view/OARX/2018
 for further information.
 
 It supports `HEADER`, `CLASSES`, `BLOCKS`, `ENTITIES` sections currently.
+
+# Installation
+
+```sh
+go get -u github.com/shota3506/go-dxf
+```
