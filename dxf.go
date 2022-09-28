@@ -1,3 +1,4 @@
+// Package dxf reads and writes DXF formatted file.
 package dxf
 
 type Drawing struct {
