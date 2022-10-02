@@ -93,7 +93,7 @@ func (w *Writer) writeHeader(header map[string]map[GroupCode]string) error {
 
 	for key, values := range header {
 		// write header key
-		if _, err := w.w.WriteString(fmt.Sprintf(" 0\n%s\n", key)); err != nil {
+		if _, err := w.w.WriteString(fmt.Sprintf(" 9\n%s\n", key)); err != nil {
 			return err
 		}
 
